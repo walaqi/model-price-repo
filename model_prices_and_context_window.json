@@ -181,6 +181,7 @@
     "supports_assistant_prefill": true,
     "supports_computer_use": true,
     "supports_function_calling": true,
+    "supports_native_structured_output": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -203,6 +204,7 @@
     "supports_assistant_prefill": true,
     "supports_computer_use": true,
     "supports_function_calling": true,
+    "supports_native_structured_output": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
     "supports_reasoning": true,
@@ -889,6 +891,7 @@
     "supports_computer_use": true,
     "supports_function_calling": true,
     "supports_max_reasoning_effort": true,
+    "supports_native_structured_output": true,
     "supports_output_config": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
@@ -921,6 +924,11 @@
     "output_cost_per_token_priority": 6e-05,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -3172,6 +3180,7 @@
     "supports_tool_choice": true
   },
   "gpt-3.5-turbo-16k": {
+    "deprecation_date": "2026-10-23",
     "input_cost_per_token": 3e-06,
     "litellm_provider": "openai",
     "max_input_tokens": 16385,
@@ -3306,6 +3315,7 @@
     "supports_vision": true
   },
   "gpt-4-turbo-preview": {
+    "deprecation_date": "2026-03-26",
     "input_cost_per_token": 1e-05,
     "litellm_provider": "openai",
     "max_input_tokens": 128000,
@@ -3336,6 +3346,11 @@
     "output_cost_per_token_priority": 1.4e-05,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.025,
+      "search_context_size_low": 0.025,
+      "search_context_size_medium": 0.025
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -3374,6 +3389,11 @@
     "output_cost_per_token": 8e-06,
     "output_cost_per_token_batches": 4e-06,
     "output_cost_per_token_priority": 1.4e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.025,
+      "search_context_size_low": 0.025,
+      "search_context_size_medium": 0.025
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -3414,6 +3434,11 @@
     "output_cost_per_token_priority": 2.8e-06,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.025,
+      "search_context_size_low": 0.025,
+      "search_context_size_medium": 0.025
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -3452,6 +3477,11 @@
     "output_cost_per_token": 1.6e-06,
     "output_cost_per_token_batches": 8e-07,
     "output_cost_per_token_priority": 2.8e-06,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.025,
+      "search_context_size_low": 0.025,
+      "search_context_size_medium": 0.025
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -3876,6 +3906,11 @@
     "mode": "chat",
     "output_cost_per_token": 6e-07,
     "output_cost_per_token_batches": 3e-07,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.03,
+      "search_context_size_low": 0.025,
+      "search_context_size_medium": 0.0275
+    },
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
     "supports_pdf_input": true,
@@ -4072,6 +4107,11 @@
     "mode": "chat",
     "output_cost_per_token": 1e-05,
     "output_cost_per_token_batches": 5e-06,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.05,
+      "search_context_size_low": 0.03,
+      "search_context_size_medium": 0.035
+    },
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
     "supports_pdf_input": true,
@@ -4122,6 +4162,11 @@
     "output_cost_per_token_priority": 2e-05,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -4166,6 +4211,11 @@
     "output_cost_per_token": 1e-05,
     "output_cost_per_token_flex": 5e-06,
     "output_cost_per_token_priority": 2e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -4275,6 +4325,11 @@
     "max_tokens": 128000,
     "mode": "responses",
     "output_cost_per_token": 1e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/responses"
     ],
@@ -4317,6 +4372,11 @@
     "output_cost_per_token_priority": 3.6e-06,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -4361,6 +4421,11 @@
     "output_cost_per_token": 2e-06,
     "output_cost_per_token_flex": 1e-06,
     "output_cost_per_token_priority": 3.6e-06,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -4404,6 +4469,11 @@
     "output_cost_per_token_flex": 2e-07,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -4445,6 +4515,11 @@
     "mode": "chat",
     "output_cost_per_token": 4e-07,
     "output_cost_per_token_flex": 2e-07,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -4484,6 +4559,11 @@
     "output_cost_per_token_batches": 6e-05,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/batch",
       "/v1/responses"
@@ -4521,6 +4601,11 @@
     "mode": "responses",
     "output_cost_per_token": 0.00012,
     "output_cost_per_token_batches": 6e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/batch",
       "/v1/responses"
@@ -4556,6 +4641,11 @@
     "max_tokens": 128000,
     "mode": "chat",
     "output_cost_per_token": 1e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supports_function_calling": true,
     "supports_minimal_reasoning_effort": true,
     "supports_none_reasoning_effort": false,
@@ -4578,6 +4668,11 @@
     "max_tokens": 128000,
     "mode": "chat",
     "output_cost_per_token": 1e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supports_function_calling": true,
     "supports_none_reasoning_effort": false,
     "supports_parallel_function_calling": true,
@@ -4602,6 +4697,11 @@
     "mode": "chat",
     "output_cost_per_token": 1e-05,
     "output_cost_per_token_priority": 2e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/responses"
@@ -4642,6 +4742,11 @@
     "mode": "chat",
     "output_cost_per_token": 1e-05,
     "output_cost_per_token_priority": 2e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/responses"
@@ -4683,6 +4788,11 @@
     "mode": "chat",
     "output_cost_per_token": 1e-05,
     "output_cost_per_token_priority": 2e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/responses"
@@ -4723,6 +4833,11 @@
     "mode": "responses",
     "output_cost_per_token": 1e-05,
     "output_cost_per_token_priority": 2e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/responses"
     ],
@@ -4758,6 +4873,11 @@
     "max_tokens": 128000,
     "mode": "responses",
     "output_cost_per_token": 1e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/responses"
     ],
@@ -4796,6 +4916,11 @@
     "mode": "responses",
     "output_cost_per_token": 2e-06,
     "output_cost_per_token_priority": 3.6e-06,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/responses"
     ],
@@ -4833,6 +4958,11 @@
     "mode": "chat",
     "output_cost_per_token": 1.4e-05,
     "output_cost_per_token_priority": 2.8e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -4874,6 +5004,11 @@
     "mode": "chat",
     "output_cost_per_token": 1.4e-05,
     "output_cost_per_token_priority": 2.8e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -4916,6 +5051,11 @@
     "mode": "chat",
     "output_cost_per_token": 1.4e-05,
     "output_cost_per_token_priority": 2.8e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/responses"
@@ -4955,6 +5095,11 @@
     "mode": "responses",
     "output_cost_per_token": 1.4e-05,
     "output_cost_per_token_priority": 2.8e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/responses"
     ],
@@ -4988,6 +5133,11 @@
     "max_tokens": 128000,
     "mode": "responses",
     "output_cost_per_token": 0.000168,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/batch",
       "/v1/responses"
@@ -5022,6 +5172,11 @@
     "max_tokens": 128000,
     "mode": "responses",
     "output_cost_per_token": 0.000168,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/batch",
       "/v1/responses"
@@ -5061,6 +5216,11 @@
     "mode": "chat",
     "output_cost_per_token": 1.4e-05,
     "output_cost_per_token_priority": 2.8e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/responses"
@@ -5099,6 +5259,11 @@
     "mode": "responses",
     "output_cost_per_token": 1.4e-05,
     "output_cost_per_token_priority": 2.8e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/responses"
     ],
@@ -5136,6 +5301,11 @@
     "mode": "responses",
     "output_cost_per_token": 1.4e-05,
     "output_cost_per_token_priority": 2.8e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/responses"
     ],
@@ -5245,7 +5415,9 @@
       "text"
     ],
     "supports_function_calling": true,
+    "supports_minimal_reasoning_effort": true,
     "supports_native_streaming": true,
+    "supports_none_reasoning_effort": true,
     "supports_parallel_function_calling": true,
     "supports_pdf_input": true,
     "supports_prompt_caching": true,
@@ -5254,7 +5426,8 @@
     "supports_service_tier": true,
     "supports_system_messages": true,
     "supports_tool_choice": true,
-    "supports_vision": true
+    "supports_vision": true,
+    "supports_xhigh_reasoning_effort": true
   },
   "gpt-5.4-mini": {
     "cache_read_input_token_cost": 7.5e-08,
@@ -5276,6 +5449,11 @@
     "output_cost_per_token_priority": 9e-06,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -5324,6 +5502,11 @@
     "output_cost_per_token_priority": 9e-06,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -5369,6 +5552,11 @@
     "output_cost_per_token_flex": 6.25e-07,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -5414,6 +5602,11 @@
     "output_cost_per_token_flex": 6.25e-07,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -5460,6 +5653,11 @@
     "output_cost_per_token_flex": 9e-05,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/responses",
       "/v1/batch"
@@ -5505,6 +5703,11 @@
     "output_cost_per_token_flex": 9e-05,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/responses",
       "/v1/batch"
@@ -5554,6 +5757,11 @@
     "output_cost_per_token_priority": 6e-05,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -5604,6 +5812,11 @@
     "output_cost_per_token_priority": 6e-05,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -5650,6 +5863,11 @@
     "output_cost_per_token_flex": 9e-05,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/responses",
       "/v1/batch"
@@ -5696,6 +5914,11 @@
     "output_cost_per_token_flex": 9e-05,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/responses",
       "/v1/batch"
@@ -5754,6 +5977,11 @@
     "output_cost_per_token_priority": 6e-05,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -5811,6 +6039,11 @@
     "output_cost_per_token_priority": 1.2e-05,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -5868,6 +6101,11 @@
     "output_cost_per_token_priority": 6e-05,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -5925,6 +6163,11 @@
     "output_cost_per_token_priority": 3e-05,
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -6807,6 +7050,11 @@
     "output_cost_per_token": 8e-06,
     "output_cost_per_token_flex": 4e-06,
     "output_cost_per_token_priority": 1.4e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/responses",
       "/v1/chat/completions",
@@ -6847,6 +7095,11 @@
     "output_cost_per_token": 8e-06,
     "output_cost_per_token_flex": 4e-06,
     "output_cost_per_token_priority": 1.4e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/responses",
       "/v1/chat/completions",
@@ -6883,6 +7136,11 @@
     "mode": "responses",
     "output_cost_per_token": 4e-05,
     "output_cost_per_token_batches": 2e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -6918,6 +7176,11 @@
     "mode": "responses",
     "output_cost_per_token": 4e-05,
     "output_cost_per_token_batches": 2e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -6987,6 +7250,11 @@
     "mode": "responses",
     "output_cost_per_token": 8e-05,
     "output_cost_per_token_batches": 4e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/responses",
       "/v1/batch"
@@ -7019,6 +7287,11 @@
     "mode": "responses",
     "output_cost_per_token": 8e-05,
     "output_cost_per_token_batches": 4e-05,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/responses",
       "/v1/batch"
@@ -7056,6 +7329,11 @@
     "output_cost_per_token": 4.4e-06,
     "output_cost_per_token_flex": 2.2e-06,
     "output_cost_per_token_priority": 8e-06,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supports_function_calling": true,
     "supports_parallel_function_calling": false,
     "supports_pdf_input": true,
@@ -7083,6 +7361,11 @@
     "output_cost_per_token": 4.4e-06,
     "output_cost_per_token_flex": 2.2e-06,
     "output_cost_per_token_priority": 8e-06,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supports_function_calling": true,
     "supports_parallel_function_calling": false,
     "supports_pdf_input": true,
@@ -7106,6 +7389,11 @@
     "mode": "responses",
     "output_cost_per_token": 8e-06,
     "output_cost_per_token_batches": 4e-06,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -7141,6 +7429,11 @@
     "mode": "responses",
     "output_cost_per_token": 8e-06,
     "output_cost_per_token_batches": 4e-06,
+    "search_context_cost_per_query": {
+      "search_context_size_high": 0.01,
+      "search_context_size_low": 0.01,
+      "search_context_size_medium": 0.01
+    },
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
