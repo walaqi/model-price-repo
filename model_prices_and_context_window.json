@@ -1081,6 +1081,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "successor_model": "claude-sonnet-5-5",
     "supports_assistant_prefill": true,
     "supports_computer_use": true,
     "supports_function_calling": true,
@@ -1125,6 +1126,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+    "successor_model": "claude-sonnet-5-5",
     "supports_assistant_prefill": true,
     "supports_computer_use": true,
     "supports_function_calling": true,
@@ -1923,6 +1925,7 @@
       "shared_group": "gemini-2-flash"
     },
     "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+    "successor_model": "gemini-3.8-flash",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/completions",
@@ -1980,6 +1983,7 @@
     "output_cost_per_token_flex": 1.25e-06,
     "rpm": 100000,
     "source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-image",
+    "successor_model": "gemini-3.1-flash-lite-image",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/completions",
@@ -2051,6 +2055,7 @@
       "shared_group": "gemini-2-flash"
     },
     "source": "https://ai.google.dev/gemini-api/docs/models#gemini-2.5-flash-preview",
+    "successor_model": "gemini-3.8-flash",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/completions",
@@ -2256,6 +2261,7 @@
     "output_cost_per_audio_token": 1.2e-05,
     "output_cost_per_token": 2.5e-06,
     "source": "https://ai.google.dev/pricing",
+    "successor_model": "gemini/gemini-3.8-live",
     "supported_endpoints": [
       "/v1/realtime"
     ],
@@ -2344,6 +2350,7 @@
     "output_cost_per_token": 2.5e-06,
     "output_cost_per_token_batches": 5e-06,
     "source": "https://ai.google.dev/pricing",
+    "successor_model": "gemini/gemini-3.8-flash-tts",
     "supported_endpoints": [
       "/v1/audio/speech"
     ],
@@ -2398,6 +2405,7 @@
       "shared_group": "gemini-2.5-pro"
     },
     "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+    "successor_model": "gemini-3.8-flash",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/completions"
@@ -2931,6 +2939,7 @@
       "shared_group": "gemini-3"
     },
     "source": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-lite",
+    "successor_model": "gemini-3.5-flash-lite",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/completions",
@@ -3092,6 +3101,7 @@
     "output_cost_per_audio_token": 1.2e-05,
     "output_cost_per_token": 4.5e-06,
     "source": "https://ai.google.dev/gemini-api/docs/pricing",
+    "successor_model": "gemini/gemini-3.8-live",
     "supported_endpoints": [
       "/v1/realtime"
     ],
@@ -3445,6 +3455,7 @@
       "shared_group": "gemini-3"
     },
     "source": "https://ai.google.dev/pricing/gemini-3",
+    "successor_model": "gemini-3.8-flash",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/completions",
@@ -3576,6 +3587,7 @@
       "shared_group": "gemini-3"
     },
     "source": "https://ai.google.dev/pricing/gemini-3",
+    "successor_model": "gemini-3.8-flash",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/completions",
@@ -3642,6 +3654,7 @@
       "shared_group": "gemini-3"
     },
     "source": "https://ai.google.dev/pricing/gemini-3",
+    "successor_model": "gemini-3.8-flash",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/completions",
@@ -3872,7 +3885,8 @@
     "mode": "embedding",
     "output_cost_per_token": 0,
     "output_vector_size": 3072,
-    "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models"
+    "source": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/models",
+    "successor_model": "gemini-embedding-2"
   },
   "gemini-embedding-2": {
     "input_cost_per_audio_per_second": 0.00016,
@@ -4133,6 +4147,7 @@
       "search_context_size_medium": 0.035
     },
     "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing",
+    "successor_model": "gemini-3.8-live",
     "supported_endpoints": [
       "/vertex_ai/live"
     ],
@@ -4265,6 +4280,7 @@
     "web_search_billing_unit": "per_query"
   },
   "gemini-omni-flash-preview": {
+    "deprecation_date": "2026-11-06",
     "input_cost_per_audio_token": 1.5e-06,
     "input_cost_per_token": 1.5e-06,
     "litellm_provider": "vertex_ai-language-models",
@@ -4484,6 +4500,7 @@
     "mode": "chat",
     "output_cost_per_token": 1.5e-06,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-terra",
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -4501,6 +4518,7 @@
     "output_cost_per_token": 1.5e-06,
     "output_cost_per_token_batches": 7.5e-07,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-terra",
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
     "supports_prompt_caching": true,
@@ -4519,6 +4537,7 @@
     "output_cost_per_token": 2e-06,
     "output_cost_per_token_batches": 2e-06,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-terra",
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
     "supports_prompt_caching": true,
@@ -4547,7 +4566,8 @@
     "max_tokens": 4096,
     "mode": "completion",
     "output_cost_per_token": 2e-06,
-    "source": "https://developers.openai.com/api/docs/pricing"
+    "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-terra"
   },
   "gpt-3.5-turbo-instruct-0914": {
     "input_cost_per_token": 1.5e-06,
@@ -4567,6 +4587,7 @@
     "max_tokens": 4096,
     "mode": "chat",
     "output_cost_per_token": 6e-05,
+    "successor_model": "gpt-5.6-sol",
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -4611,6 +4632,7 @@
     "output_cost_per_token": 6e-05,
     "output_cost_per_token_batches": 3e-05,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-sol",
     "supports_function_calling": true,
     "supports_prompt_caching": true,
     "supports_system_messages": true,
@@ -4625,6 +4647,7 @@
     "max_tokens": 4096,
     "mode": "chat",
     "output_cost_per_token": 3e-05,
+    "successor_model": "gpt-5.6-sol",
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
     "supports_prompt_caching": true,
@@ -4640,6 +4663,7 @@
     "max_tokens": 4096,
     "mode": "chat",
     "output_cost_per_token": 3e-05,
+    "successor_model": "gpt-5.6-sol",
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
     "supports_pdf_input": true,
@@ -4660,6 +4684,7 @@
     "output_cost_per_token": 3e-05,
     "output_cost_per_token_batches": 1.5e-05,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-sol",
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
     "supports_pdf_input": true,
@@ -4707,6 +4732,7 @@
       "search_context_size_medium": 0.025
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-6-luna",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -4752,6 +4778,7 @@
       "search_context_size_medium": 0.025
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-6-luna",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -4799,6 +4826,7 @@
       "search_context_size_medium": 0.025
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-6-luna",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -4844,6 +4872,7 @@
       "search_context_size_medium": 0.025
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-6-luna",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -4886,6 +4915,7 @@
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-luna",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -4925,6 +4955,7 @@
     "output_cost_per_token_batches": 2e-07,
     "output_cost_per_token_priority": 8e-07,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-luna",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -4966,6 +4997,7 @@
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-6-luna",
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
     "supports_pdf_input": true,
@@ -4990,6 +5022,7 @@
     "output_cost_per_token_batches": 7.5e-06,
     "output_cost_per_token_priority": 2.625e-05,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-sol",
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
     "supports_pdf_input": true,
@@ -5016,6 +5049,7 @@
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-6-luna",
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
     "supports_pdf_input": true,
@@ -5044,6 +5078,7 @@
     "regional_processing_uplift_multiplier_eu": 1.1,
     "regional_processing_uplift_multiplier_us": 1.1,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-6-luna",
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
     "supports_pdf_input": true,
@@ -5083,6 +5118,7 @@
     "mode": "chat",
     "output_cost_per_audio_token": 8e-05,
     "output_cost_per_token": 1e-05,
+    "successor_model": "gpt-audio-1.5",
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_function_calling": true,
@@ -5101,6 +5137,7 @@
     "mode": "chat",
     "output_cost_per_audio_token": 8e-05,
     "output_cost_per_token": 1e-05,
+    "successor_model": "gpt-audio-1.5",
     "supports_audio_input": true,
     "supports_audio_output": true,
     "supports_function_calling": true,
@@ -5131,6 +5168,7 @@
       "search_context_size_medium": 0.025
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-6-luna",
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
     "supports_pdf_input": true,
@@ -5162,6 +5200,7 @@
       "search_context_size_medium": 0.0275
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-6-luna",
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
     "supports_pdf_input": true,
@@ -5292,6 +5331,7 @@
       "search_context_size_medium": 0.0275
     },
     "source": "https://developers.openai.com/api/docs/models/gpt-4o-mini-search-preview",
+    "successor_model": "gpt-5.6-terra",
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
     "supports_pdf_input": true,
@@ -5313,6 +5353,7 @@
     "mode": "audio_transcription",
     "output_cost_per_token": 5e-06,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-live-transcribe",
     "supported_endpoints": [
       "/v1/audio/transcriptions"
     ]
@@ -5328,6 +5369,7 @@
     "mode": "audio_transcription",
     "output_cost_per_token": 5e-06,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-4o-mini-transcribe-2025-12-15",
     "supported_endpoints": [
       "/v1/audio/transcriptions"
     ]
@@ -5343,6 +5385,7 @@
     "mode": "audio_transcription",
     "output_cost_per_token": 5e-06,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-live-transcribe",
     "supported_endpoints": [
       "/v1/audio/transcriptions"
     ]
@@ -5356,6 +5399,7 @@
     "output_cost_per_second": 0.00025,
     "output_cost_per_token": 1e-05,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-realtime-2.1-mini",
     "supported_endpoints": [
       "/v1/audio/speech"
     ],
@@ -5376,6 +5420,7 @@
     "output_cost_per_second": 0.00025,
     "output_cost_per_token": 1e-05,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-realtime-2.1-mini",
     "supported_endpoints": [
       "/v1/audio/speech"
     ],
@@ -5396,6 +5441,7 @@
     "output_cost_per_second": 0.00025,
     "output_cost_per_token": 1e-05,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-realtime-2.1-mini",
     "supported_endpoints": [
       "/v1/audio/speech"
     ],
@@ -5508,6 +5554,7 @@
       "search_context_size_medium": 0.035
     },
     "source": "https://developers.openai.com/api/docs/models/gpt-4o-search-preview",
+    "successor_model": "gpt-5.6-terra",
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
     "supports_pdf_input": true,
@@ -5529,6 +5576,7 @@
     "mode": "audio_transcription",
     "output_cost_per_token": 1e-05,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-live-transcribe",
     "supported_endpoints": [
       "/v1/audio/transcriptions"
     ]
@@ -5544,6 +5592,7 @@
     "mode": "audio_transcription",
     "output_cost_per_token": 1e-05,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-live-transcribe",
     "supported_endpoints": [
       "/v1/audio/transcriptions"
     ]
@@ -5582,6 +5631,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -5642,6 +5692,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -5680,6 +5731,7 @@
     "max_tokens": 16384,
     "mode": "chat",
     "output_cost_per_token": 1e-05,
+    "successor_model": "gpt-5.2-chat-latest",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -5717,6 +5769,7 @@
     "mode": "chat",
     "output_cost_per_token": 1e-05,
     "source": "https://developers.openai.com/api/docs/models/gpt-5-chat-latest",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -5759,6 +5812,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/models/gpt-5-codex",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/responses"
     ],
@@ -5818,6 +5872,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-terra",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -5878,6 +5933,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-terra",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -5938,6 +5994,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-luna",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -5995,6 +6052,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-luna",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -6048,6 +6106,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/batch",
       "/v1/responses"
@@ -6098,6 +6157,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/batch",
       "/v1/responses"
@@ -6212,6 +6272,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-6-sol",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/responses"
@@ -6273,6 +6334,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-6-sol",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/responses"
@@ -6321,6 +6383,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/models/gpt-5.1-chat-latest",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/responses"
@@ -6367,6 +6430,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/models/gpt-5.1-codex",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/responses"
     ],
@@ -6408,6 +6472,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-max",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/responses"
     ],
@@ -6452,6 +6517,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/models/gpt-5.1-codex-mini",
+    "successor_model": "gpt-5.6-terra",
     "supported_endpoints": [
       "/v1/responses"
     ],
@@ -6620,6 +6686,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/models/gpt-5.2-chat-latest",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/responses"
@@ -6665,6 +6732,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/models/gpt-5.2-codex",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/responses"
     ],
@@ -6807,6 +6875,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/models/gpt-5.3-chat-latest",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/responses"
@@ -6859,6 +6928,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-6-sol",
     "supported_endpoints": [
       "/v1/responses"
     ],
@@ -6911,6 +6981,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-6-sol",
     "supported_endpoints": [
       "/v1/responses"
     ],
@@ -7232,6 +7303,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-6-luna",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -7293,6 +7365,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-6-luna",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -8746,6 +8819,7 @@
     "output_cost_per_audio_token": 6.4e-05,
     "output_cost_per_token": 1e-05,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-audio-1.5",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/responses",
@@ -8818,6 +8892,7 @@
     "output_cost_per_audio_token": 6.4e-05,
     "output_cost_per_token": 1e-05,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-audio-1.5",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/responses",
@@ -8856,6 +8931,7 @@
     "output_cost_per_audio_token": 2e-05,
     "output_cost_per_token": 2.4e-06,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-audio-1.5",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/responses",
@@ -8894,6 +8970,7 @@
     "output_cost_per_audio_token": 2e-05,
     "output_cost_per_token": 2.4e-06,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-audio-1.5",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/responses",
@@ -8932,6 +9009,7 @@
     "output_cost_per_audio_token": 2e-05,
     "output_cost_per_token": 2.4e-06,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-audio-1.5",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/responses",
@@ -9047,6 +9125,7 @@
     "mode": "image_generation",
     "output_cost_per_image_token": 4e-05,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-image-2.5-sunburst",
     "supported_endpoints": [
       "/v1/images/generations",
       "/v1/images/edits"
@@ -9065,6 +9144,7 @@
     "mode": "image_generation",
     "output_cost_per_image_token": 8e-06,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-image-2.5-sunburst",
     "supported_endpoints": [
       "/v1/images/generations",
       "/v1/images/edits"
@@ -9085,6 +9165,7 @@
     "output_cost_per_token": 1e-05,
     "output_cost_per_token_batches": 5e-06,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-image-2.5-sunburst",
     "supported_endpoints": [
       "/v1/images/generations"
     ],
@@ -9106,6 +9187,7 @@
     "output_cost_per_token": 1e-05,
     "output_cost_per_token_batches": 5e-06,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-image-2.5-sunburst",
     "supported_endpoints": [
       "/v1/images/generations"
     ],
@@ -9273,6 +9355,7 @@
     "output_cost_per_audio_token": 6.4e-05,
     "output_cost_per_token": 1.6e-05,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-realtime-2.1",
     "supported_endpoints": [
       "/v1/realtime"
     ],
@@ -9465,6 +9548,7 @@
     "output_cost_per_audio_token": 6.4e-05,
     "output_cost_per_token": 1.6e-05,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-realtime-2.1",
     "supported_endpoints": [
       "/v1/realtime"
     ],
@@ -9501,6 +9585,7 @@
     "output_cost_per_audio_token": 2e-05,
     "output_cost_per_token": 2.4e-06,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-realtime-2.1-mini",
     "supported_endpoints": [
       "/v1/realtime"
     ],
@@ -9574,6 +9659,7 @@
     "output_cost_per_audio_token": 2e-05,
     "output_cost_per_token": 2.4e-06,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-realtime-2.1-mini",
     "supported_endpoints": [
       "/v1/realtime"
     ],
@@ -9756,6 +9842,7 @@
     "output_cost_per_token": 6e-05,
     "output_cost_per_token_batches": 3e-05,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-sol",
     "supports_function_calling": true,
     "supports_parallel_function_calling": true,
     "supports_pdf_input": true,
@@ -9778,6 +9865,7 @@
     "output_cost_per_token": 0.0006,
     "output_cost_per_token_batches": 0.0003,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/responses",
       "/v1/batch"
@@ -9812,6 +9900,7 @@
     "output_cost_per_token": 0.0006,
     "output_cost_per_token_batches": 0.0003,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/responses",
       "/v1/batch"
@@ -9865,6 +9954,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/responses",
       "/v1/chat/completions",
@@ -9920,6 +10010,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/responses",
       "/v1/chat/completions",
@@ -9962,6 +10053,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/models/o3-deep-research",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -10004,6 +10096,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/models/o3-deep-research",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -10041,6 +10134,7 @@
     "output_cost_per_token": 4.4e-06,
     "output_cost_per_token_batches": 2.2e-06,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-sol",
     "supports_function_calling": true,
     "supports_parallel_function_calling": false,
     "supports_prompt_caching": true,
@@ -10062,6 +10156,7 @@
     "output_cost_per_token": 4.4e-06,
     "output_cost_per_token_batches": 2.2e-06,
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-sol",
     "supports_function_calling": true,
     "supports_parallel_function_calling": false,
     "supports_prompt_caching": true,
@@ -10094,6 +10189,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/responses",
       "/v1/batch"
@@ -10139,6 +10235,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/responses",
       "/v1/batch"
@@ -10184,6 +10281,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-terra",
     "supports_function_calling": true,
     "supports_parallel_function_calling": false,
     "supports_pdf_input": true,
@@ -10219,6 +10317,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/pricing",
+    "successor_model": "gpt-5.6-terra",
     "supports_function_calling": true,
     "supports_parallel_function_calling": false,
     "supports_pdf_input": true,
@@ -10248,6 +10347,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/models/o4-mini-deep-research",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
@@ -10290,6 +10390,7 @@
       "search_context_size_medium": 0.01
     },
     "source": "https://developers.openai.com/api/docs/models/o4-mini-deep-research",
+    "successor_model": "gpt-5.6-sol",
     "supported_endpoints": [
       "/v1/chat/completions",
       "/v1/batch",
